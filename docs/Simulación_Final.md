@@ -14,7 +14,6 @@ En esta última simulación se integrarán los siguientes elementos:
     - [3.1 Arduino.](#31-arduino)
     - [3.2 Script Python.](#32-script-python)
   - [4. Control por ROS.](#4-control-por-ros)
-  - [Se implementó un suscriptor en el Arduino que permitía recibir mensajes publicados en el tópico "/joint\_states" de ROS. A diferencia de lo que se esperaba, se notó que la comunicación no se desincronizaba y el suscriptor funcionaba de manera correcta. Esto hizo que el proceso de comunicación fuera más sencillo y rápido de realizar.](#se-implementó-un-suscriptor-en-el-arduino-que-permitía-recibir-mensajes-publicados-en-el-tópico-joint_states-de-ros-a-diferencia-de-lo-que-se-esperaba-se-notó-que-la-comunicación-no-se-desincronizaba-y-el-suscriptor-funcionaba-de-manera-correcta-esto-hizo-que-el-proceso-de-comunicación-fuera-más-sencillo-y-rápido-de-realizar)
     - [4.1 Arduino.](#41-arduino)
     - [4.2 Script Python.](#42-script-python)
   - [5. Videotutorial de la sección.](#5-videotutorial-de-la-sección)
@@ -422,6 +421,7 @@ if __name__ == '__main__':
 Durante la realización de este control, se utilizó la librería rosserial para recibir mensajes de ROS. A diferencia del control anterior, en esta ocasión no fue necesario utilizar el script en Python para realizar la comunicación.
 
 Se implementó un suscriptor en el Arduino que permitía recibir mensajes publicados en el tópico "/joint_states" de ROS. A diferencia de lo que se esperaba, se notó que la comunicación no se desincronizaba y el suscriptor funcionaba de manera correcta. Esto hizo que el proceso de comunicación fuera más sencillo y rápido de realizar.
+
 ---
 ### 4.1 Arduino.
 Los cambios en la programación de Arduino fueron los siguientes:
