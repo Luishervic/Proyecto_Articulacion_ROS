@@ -23,7 +23,7 @@ En esta última simulación se integrarán los siguientes elementos:
 ## 1. Programación inicial de Arduino.
 Con el siguiente programa, se pretende hacer que el Arduino MEGA 2560 pueda comunicarse a través del puerto serial USB (Componente 2 de la Figura 1) con ROS. Es importante tener en cuenta que se deben instalar previamente las librerías SimpleFOC y rosserial.:
 
-|![ArduinoMEGA](../imgs/Hardware-Information-of-Arduino-Mega-2560.webp)|
+|![ArduinoMEGA](/imgs/Hardware-Information-of-Arduino-Mega-2560.webp)|
 |:--:|
 | <b> Fig. 1 - Partes del Arduino MEGA 2560. </b>|
 ```
@@ -204,7 +204,7 @@ dtoverlay=disable-bt
 ```
 Salimos del editor usando **Ctrl + x** y guardamos los cambios, el resultado sería algo semejante a lo mostrado en la figura 3.
 
-|![Edición del archivo config.txt](../imgs/Config.png)|
+|![Edición del archivo config.txt](/imgs/Config.png)|
 |:--:|
 | <b> Fig. 3 - Archivo editado. </b>|
 
