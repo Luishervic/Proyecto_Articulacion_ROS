@@ -12,9 +12,9 @@ En este repositorio se encuentran los archivos necesarios para la instalación y
 
 Consultalo en el siguiente orden:
 
-- [1. Instalación y configuración de ROS Melodic.](/Docs/Instalación_ROS_Melodic.md)
-- [2. Simulación y comunicación con Arduino.](/Docs/Simulación&Com_Arduino_ROS.md)
-- [3. Simulación final.](/Docs/Simulación_Final.md)
+- [1. Instalación y configuración de ROS Melodic.](/docs/Instalación_ROS_Melodic.md)
+- [2. Simulación y comunicación con Arduino.](/docs/Simulación&Com_Arduino_ROS.md)
+- [3. Simulación final.](/docs/Simulación_Final.md)
 
 ---
 ## Recursos extra:
